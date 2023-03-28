@@ -1,0 +1,22 @@
+{
+  "globals": {
+    "steps": 10,
+    "output": "csv",
+    "options": {
+      "delimiter": ";",
+      "format": "en-EN"
+    }
+  },
+  "layers": [
+    {
+      "name": "MyGridLayer",
+      "file": "Resources/grid.csv"
+    }
+  ],
+  "agents": [
+    {
+      "name": "MyAgent",
+      "count": 1
+    }
+  ]
+}
